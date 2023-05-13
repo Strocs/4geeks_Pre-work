@@ -53,12 +53,18 @@ body {
 }
 .postcard__content__right {
     display: grid;
-    font-size: 0.8rem;
 }
 .postcard__content__right input {
     margin-bottom: .5rem;
+    border-radius: 0;
+    border: none;
+    border-bottom: solid 1px white ;
+    background-color: transparent;
+    height: 1.6rem;
 }
-
+.postcard__content__right input::placeholder {
+    color: white;
+}
 .postcard__footer {
     width: 100%;
     display: flex;
