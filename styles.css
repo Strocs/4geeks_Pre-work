@@ -24,6 +24,7 @@ body {
     gap: 2rem;
     background: linear-gradient(-45deg, #20232b, #233d53);
     color: white;
+    box-shadow: .6rem .6rem #3195d8;
 }
 
 .postcard__header {
